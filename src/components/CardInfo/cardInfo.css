@@ -1,0 +1,29 @@
+.card-info {
+  background-color: #dbd8e3;
+  color: #233142;
+  width: max-content;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.card-info .address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.2rem;
+}
+
+.card-info .free-time {
+  color: #233142;
+  margin: 0.2rem;
+}
+
+.card-info .more-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
