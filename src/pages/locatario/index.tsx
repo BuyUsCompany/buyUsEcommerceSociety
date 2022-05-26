@@ -1,7 +1,11 @@
+import RecipeReviewCard from "../../components/CardInfoTwo"
+import ResponsiveAppBar from "../../components/AppBar"
+
 export function Locatario() {
   return (
     <>
-      <h1>Locatario</h1>
+    <ResponsiveAppBar></ResponsiveAppBar><br />
+    <RecipeReviewCard></RecipeReviewCard>  
     </>
   )
 }
