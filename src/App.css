@@ -1,4 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 body {
   background-color: #233142;
+  color: #ffffff;  
+}
+
+.nav-user {
+  display: flex;
+  justify-content:  center;  
+  height: 100vh;
+}
+button.link-user-type {
+  background-color: transparent;
+  margin: 15px;  
+  border: none;
   color: #ffffff;
 }
+
+.link-user-type a {  
+  color: #ffffff;
+  
+}
+  

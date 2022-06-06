@@ -1,11 +1,11 @@
+import { Link } from 'react-router-dom'
 import './App.css'
 
-function App() {
+export function App() {
   return (
-    <>
-      <h1>App</h1>      
-    </>
+    <div className='nav-user'>
+      <button className='link-user-type'><Link to='establishment'>Estabelecimeto</Link></button>
+      <button className='link-user-type'><Link to='user'>User</Link> </button>
+    </div>
   )
 }
-
-export default App

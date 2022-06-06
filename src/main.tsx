@@ -1,4 +1,4 @@
-import App from './App'
+import { App } from './App'
 import ReactDOM from "react-dom/client";
 
 import {
@@ -7,17 +7,17 @@ import {
   Route,
 } from "react-router-dom";
 
-import Locator from './pages/locator/';
-import Locatario from './pages/locatario/';
+import { RoutesUser } from './pages/user/routesUser';
+import { RoutesEstablishment } from './pages/establishment/routesEstablishment';
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />}/>
-      <Route path="locator" element={<Locator/>}/> 
-      <Route path="locatario" element={<Locatario/>}/> 
+      <Route index element={<App />} />
+      <Route path='establishment/*' element={<RoutesEstablishment/>}/>
+      <Route path='user/*' element={<RoutesUser/>}></Route>
     </Routes>
   </BrowserRouter>
 );
